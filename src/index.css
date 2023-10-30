@@ -1,13 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #020202;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.softboxshadowlayeredeffect {
+  box-shadow: 0px 7px 36px -9px rgba(4, 28, 203, 1),
+    0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.background-svg-chaos {
+  background-image: url("../public/ccchaos.svg");
+  background-size: cover;
+}
+
+.background-svg-flux {
+  background-image: url("../public/ffflux.svg");
+  background-size: cover;
+}
+.background-svg-os {
+  background-image: url("../public/oooscillate.svg");
+  background-size: cover;
+}
+.background-svg-or {
+  background-image: url("../public/ooorganize.svg");
+  background-size: contain;
+  z-index: 0;
+}
+.background-svg-surf {
+  background-image: url("../public/sssurf.svg");
+  background-size: 50%;
+}
+.background-svg-ten {
+  background-image: url("../public/ttten.svg");
+  background-size: cover;
+}
+.background-svg-ref {
+  background-image: url("../public/rrreflection.svg");
+  background-size: cover;
+}
+
+.heroboxshadow {
+  box-shadow: rgba(60, 60, 60, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.boxshadow2 {
+  box-shadow: rgba(4, 27, 203, 0.4) 5px 5px, rgba(4, 27, 170, 0.3) 10px 10px,
+    rgba(4, 27, 170, 0.2) 15px 15px, rgba(4, 27, 170, 0.1) 20px 20px,
+    rgba(4, 27, 170, 0.05) 25px 25px;
+}
+.bxsh {
+  box-shadow: rgba(239, 49, 49, 0.4) 5px 5px, rgba(239, 49, 49, 0.3) 10px 10px,
+    rgba(239, 49, 49, 0.2) 15px 15px, rgba(239, 49, 49, 0.1) 20px 20px,
+    rgba(239, 49, 49, 0.05) 25px 25px;
+}
+.bxsh2 {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.bxsh3 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.divider:before {
+  background-color: rgba(242, 242, 242, 0.4);
+  --tw-bg-opacity: 0.1;
+  margin: 0 5vh 5vh 5vh;
+}
+.divider:after {
+  background-color: rgb(242, 242, 242, 0.4);
+  --tw-bg-opacity: 0.1;
+}
+
+.divider {
+  padding: 0 2vw 0 2vw;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-4%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.hover\:animate-bounce1:hover {
+  animation: bounce 1s infinite;
+}
+
+.hover\:animate-wave:hover {
+  animation: wave 20s linear infinite; /* Adjust duration as needed */
+  background-image: url("../public/sssurf.svg"); /* Your image URL */
+  background-repeat: repeat-x;
+  background-position: 0;
+  background-size: 120%;
+}
+.animate-wave {
+  animation: wave 120s linear infinite; /* Adjust duration as needed */
+  background-image: url("../public/sssurf.svg"); /* Your image URL */
+  background-repeat: repeat-x;
+  background-position: 0;
+  background-size: 120%;
+}
+
+@keyframes wave {
+  from {
+    background-position: 100% 304%;
+  }
+  to {
+    background-position: 0% 300%;
+  }
 }
