@@ -12,8 +12,8 @@ function Services() {
         areas
       </p>
       <div className="mx-auto w-fit p-4 flex sm:flex-row flex-wrap gap-4 ">
-        <div className="group   hover:scale-[102%] duration-500 ease-in-out  bg-zinc-950 shadow-sm shadow-[#ef3131] mx-auto py-4 rounded-tl-3xl rounded-br-3xl max-w-md gap-4 overflow-hidden ">
-          <h1 className="text-3xl text-center text-[#f2f2f2] pb-2 bg-[transparent] group-hover:bg-[#ef3131]  duration-500 ease-in-out">
+        <div className="cyber group   hover:scale-[102%] duration-500 ease-in-out  bg-zinc-950 shadow-sm shadow-[#ef3131] mx-auto py-4 rounded-tl-3xl rounded-br-3xl max-w-md gap-4 overflow-hidden ">
+          <h1 className=" text-3xl text-center text-[#f2f2f2] pb-2 bg-[transparent] group-hover:bg-[#ef3131]  duration-500 ease-in-out">
             Cyber Security
           </h1>
           <p className=" text-xl text-center text-[#f2f2f2] opacity-80  p-4 bg-zinc-950/20 backdrop-blur-[2px] ">
@@ -22,8 +22,8 @@ function Services() {
             ensuring your peace of mind.
           </p>
         </div>
-        <div className="group shadow-sm hover:scale-[102%] duration-500 ease-in-out shadow-[#ef3131] mx-auto bg-zinc-950 py-4 rounded-tl-3xl rounded-br-3xl max-w-md gap-4 overflow-hidden">
-          <h1 className="text-3xl text-center text-[#f2f2f2] pb-2 bg-[transparent] group-hover:bg-[#ef3131]  duration-500 ease-in-out">
+        <div className="software group shadow-sm hover:scale-[102%] duration-500 ease-in-out shadow-[#ef3131] mx-auto bg-zinc-950 py-4 rounded-tl-3xl rounded-br-3xl max-w-md gap-4 overflow-hidden">
+          <h1 className=" text-3xl text-center text-[#f2f2f2] pb-2 bg-[transparent] group-hover:bg-[#ef3131]  duration-500 ease-in-out">
             Development
           </h1>
           <p className=" text-xl text-center text-[#f2f2f2] opacity-80  p-4 bg-zinc-950/20 backdrop-blur-[2px] ">
@@ -32,7 +32,7 @@ function Services() {
             tailored to your needs.
           </p>
         </div>
-        <div className="group  hover:scale-[102%] duration-500 ease-in-out shadow-sm shadow-[#ef3131] mx-auto bg-zinc-950 py-4 rounded-tl-3xl rounded-br-3xl max-w-md gap-4 overflow-hidden">
+        <div className="social group  hover:scale-[102%] duration-500 ease-in-out shadow-sm shadow-[#ef3131] mx-auto bg-zinc-950 py-4 rounded-tl-3xl rounded-br-3xl max-w-md gap-4 overflow-hidden">
           <h1 className="text-3xl text-center text-[#f2f2f2] pb-2 bg-[transparent] group-hover:bg-[#ef3131]  duration-500 ease-in-out">
             Social Media
           </h1>

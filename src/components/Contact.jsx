@@ -14,11 +14,11 @@ function Contact() {
           guidance and support.
         </p>
 
-        <div className="flex flex-col gap-8 w-3/4">
+        <div className="flex flex-col gap-8 w-auto sm:w-3/4">
           <div className="collapse collapse-plus background-svg-surf bg-[#041ccb]/20 bxsh2">
             <input type="radio" name="my-accordion-3" />
             <div className="collapse-title text-xl font-medium text-center select-none text-[#f2f2f2] opacity-90">
-              Contact Us!
+              Contact Us
             </div>
             <div className="collapse-content text-center bg-zinc-950 ">
               <div className="pt-4">

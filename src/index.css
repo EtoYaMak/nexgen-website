@@ -65,17 +65,17 @@ body {
 }
 
 .divider:before {
-  background-color: rgba(242, 242, 242, 0.4);
+  background-color: rgb(255, 255, 255, 0.4);
   --tw-bg-opacity: 0.1;
-  margin: 0 5vh 5vh 5vh;
 }
 .divider:after {
-  background-color: rgb(242, 242, 242, 0.4);
+  background-color: hsl(233, 96%, 100%, 0.4);
   --tw-bg-opacity: 0.1;
 }
 
 .divider {
   padding: 0 2vw 0 2vw;
+  gap: 12px;
 }
 @keyframes bounce {
   0%,

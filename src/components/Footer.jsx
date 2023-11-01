@@ -20,12 +20,33 @@ function Footer() {
         <header className="footer-title opacity-80 text-[#ef3131]">
           Services
         </header>
-        <a className="link link-hover text-[#f2f2f2]">Cyber Security</a>
-        <a className="link link-hover text-[#f2f2f2]">Software</a>
-        <a className="link link-hover text-[#f2f2f2]">Web & Mobile</a>
-        <a className="link link-hover text-[#f2f2f2]">
+        <Link
+          to="services"
+          smooth={true}
+          duration={500}
+          offset={-50}
+          className="link link-hover text-[#f2f2f2]"
+        >
+          Cyber Security
+        </Link>
+        <Link
+          to="services"
+          smooth={true}
+          duration={500}
+          offset={-50}
+          className="link link-hover text-[#f2f2f2]"
+        >
+          Software Development
+        </Link>
+        <Link
+          to="services"
+          smooth={true}
+          duration={500}
+          offset={-50}
+          className="link link-hover text-[#f2f2f2]"
+        >
           Social Media Management
-        </a>
+        </Link>
       </nav>
       <nav>
         <header className="footer-title text-[#ef3131] opacity-80">
