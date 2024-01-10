@@ -17,7 +17,7 @@ function About() {
       </div>
       <div className="personCards flex flex-col md:flex-row items-center py-4 px-2 gap-8 md:gap-4 justify-evenly md:h-[60vh] mx-auto w-full">
         <div
-          className="personCard group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center
+          className="personCard py-2 group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center
           shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]
         hover:shadow-[rgba(13,_38,_76,_0.33)_0px_9px_20px] hover:-translate-y-3 duration-[300ms] ease-in-out hover:text-white rounded-md hover:bg-[#061AD1]/90 "
         >
@@ -46,7 +46,7 @@ function About() {
             </span>
           </span>
         </div>
-        <div className="personCard group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(13,_38,_76,_0.33)_0px_9px_20px] hover:-translate-y-3 duration-[300ms] ease-in-out hover:text-white rounded-md hover:bg-[#061AD1]/90 ">
+        <div className="personCard py-2 group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(13,_38,_76,_0.33)_0px_9px_20px] hover:-translate-y-3 duration-[300ms] ease-in-out hover:text-white rounded-md hover:bg-[#061AD1]/90 ">
           <span>
             <img
               src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/home-3-team-img-2.png"
@@ -72,7 +72,7 @@ function About() {
             </span>
           </span>
         </div>
-        <div className="personCard group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(13,_38,_76,_0.33)_0px_9px_20px] hover:-translate-y-3 duration-[300ms] ease-in-out hover:text-white rounded-md hover:bg-[#061AD1]/90 ">
+        <div className="personCard py-2 group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(13,_38,_76,_0.33)_0px_9px_20px] hover:-translate-y-3 duration-[300ms] ease-in-out hover:text-white rounded-md hover:bg-[#061AD1]/90 ">
           <span>
             <img
               src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/home-3-team-img-2.png"
@@ -98,7 +98,7 @@ function About() {
             </span>
           </span>
         </div>
-        <div className="personCard group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(13,_38,_76,_0.33)_0px_9px_20px] hover:-translate-y-3 duration-[300ms] ease-in-out hover:text-white rounded-md hover:bg-[#061AD1]/90 ">
+        <div className="personCard py-2 group w-full md:w-[286px] h-1/6 md:h-[450px] bg-transparent flex md:flex-col justify-evenly items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] hover:shadow-[rgba(13,_38,_76,_0.33)_0px_9px_20px] hover:-translate-y-3 duration-[300ms] ease-in-out hover:text-white rounded-md hover:bg-[#061AD1]/90 ">
           <span>
             <img
               src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/home-3-team-img-2.png"
