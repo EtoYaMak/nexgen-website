@@ -6,7 +6,7 @@ function Footer() {
       <aside className="flex items-center select-none ">
         <img
           src="/nexgendesign.png"
-          alt="Description of the image"
+          alt="Nexgen Company Logo"
           width={80}
           className="pointer-events-none "
         />
