@@ -25,7 +25,7 @@ function About() {
             <img
               src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/home-3-team-img-2.png"
               alt="person"
-              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] min-w-fit"
+              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] "
             />
           </span>
           <span className="text-black group-hover:text-white duration-200 max-w-[200px] text-center w-full space-y-3">
@@ -51,7 +51,7 @@ function About() {
             <img
               src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/home-3-team-img-2.png"
               alt="person"
-              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] min-w-fit"
+              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] "
             />
           </span>
           <span className="text-black group-hover:text-white duration-200 max-w-[200px] text-center w-full space-y-3">
@@ -77,7 +77,7 @@ function About() {
             <img
               src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/home-3-team-img-2.png"
               alt="person"
-              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] min-w-fit"
+              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] "
             />
           </span>
           <span className="text-black group-hover:text-white duration-200 max-w-[200px] text-center w-full space-y-3">
@@ -103,7 +103,7 @@ function About() {
             <img
               src="https://foton.qodeinteractive.com/wp-content/uploads/2018/06/home-3-team-img-2.png"
               alt="person"
-              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] min-w-fit"
+              className="w-[100px] h-[100px] md:w-[140px] md:h-[140px] "
             />
           </span>
           <span className="text-black group-hover:text-white duration-200 max-w-[200px] text-center w-full space-y-3">
