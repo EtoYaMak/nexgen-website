@@ -3,6 +3,7 @@ import { FaInstagram, FaWhatsapp, FaFacebook } from "react-icons/fa6";
 import { IoMailOutline } from "react-icons/io5";
 import { HiOutlinePhone } from "react-icons/hi2";
 import { FaPaperPlane } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -78,6 +79,7 @@ function Contact() {
               </button>
             </form>
           </div>
+          {/* RIGHT CONTENT */}
           <div className="font-Poppins flex flex-col justify-between items-center h-full md:max-w-[38%] w-full md:py-8 md:pb-[6%] my-10">
             <h1 className="text-2xl font-Poppins text-white font-normal w-full text-center mb-4">
               Contact Information
@@ -93,9 +95,33 @@ function Contact() {
               />
             </div>
             <div className="flex gap-4 mt-4">
-              <SocialLink icon={<FaInstagram size={32} />} href="#1" />
-              <SocialLink icon={<FaWhatsapp size={32} />} href="#1" />
-              <SocialLink icon={<FaFacebook size={32} />} href="#1" />
+              <SocialLink
+                icon={
+                  <FaInstagram
+                    size={32}
+                    className="hover:bg-gradient-to-bl hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 rounded-lg"
+                  />
+                }
+                href="#1"
+              />
+              <SocialLink
+                icon={
+                  <FaWhatsapp
+                    size={32}
+                    className="hover:bg-gradient-to-r hover:from-green-500 hover:to-green-600 rounded-full "
+                  />
+                }
+                href="#1"
+              />
+              <SocialLink
+                icon={
+                  <FaFacebook
+                    size={32}
+                    className="hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-600 rounded-full "
+                  />
+                }
+                href="#1"
+              />
             </div>
           </div>
         </div>
