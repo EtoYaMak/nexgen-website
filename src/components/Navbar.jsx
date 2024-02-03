@@ -12,7 +12,7 @@ function Navbar({ hidden, activeSection }) {
       className={`fixed w-full z-[99] items-center flex duration-[5ms] ease-in-out py-2 ${
         activeSection === "home"
           ? "text-white backdrop-blur-[1px]"
-          : "text-[#061AD1] backdrop-blur-[1px]"
+          : "text-[#000] backdrop-blur-[1px]"
       }`}
     >
       <div
