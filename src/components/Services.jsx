@@ -2,9 +2,9 @@ import React from "react";
 /* Nexgen Blue 061AD1 */
 function Services() {
   return (
-    <div className="Services min-h-[60vh] bg-[#fff] z-0 max-w-[1280px] mx-auto px-4">
+    <div className="Services min-h-[60vh] bg-[#fff] z-0 max-w-[1280px] mx-auto px-4 scroll-py-10">
       <div className="header py-10 flex flex-col gap-8 ">
-        <h1 className="text-2xl uppercase font-Open text-black font-semibold w-fit">
+        <h1 className="text-2xl uppercase font-Open text-black font-semibold w-fit relative">
           Our Services
         </h1>
         <h2 className="w-fit text-[2rem] md:text-[2.5rem] uppercase font-Poppins flex flex-col leading-9 font-semibold tracking-[0.020em] text-[#3e3e3e]">

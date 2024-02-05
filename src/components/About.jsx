@@ -5,11 +5,11 @@ import { MdAlternateEmail } from "react-icons/md";
 function About() {
   //
   return (
-    <div className="bg-transparent min-h-screen max-w-7xl mx-auto">
+    <div className="bg-transparent min-h-screen max-w-7xl mx-auto py-12">
       <div className="header pt-10 pb-4 flex flex-col gap-10 text-center ">
         <h1 className="text-2xl uppercase font-Open text-black font-semibold flex flex-col justify-center items-center">
           Our Team
-          <span className="text-[15px] mt-6 leading-4 text-black/80 normal-case">
+          <span className="text-[15px] mt-6 leading-4 text-center px-4 font-Poppins font-normal text-black/80 normal-case">
             NEXGEN's growth-driven services and tailored consultations propel
             your business forward, guided by a dedicated team committed to
             client satisfaction.
@@ -21,7 +21,7 @@ function About() {
           <span className="text-[#061AD1]/90">talent</span>
         </h2>
       </div>
-      <p className="text-center text-black font-Poppins">
+      <p className="text-center text-black font-Poppins px-4">
         Our behind-the-scenes team transforms your dreams into reality.
       </p>
       <div className="personCards flex flex-col md:flex-row items-center py-4 px-2 gap-8 md:gap-4 justify-evenly md:h-[60vh] mx-auto w-full">
@@ -73,7 +73,7 @@ function About() {
             />
           </span>
           <span className="text-black group-hover:text-white duration-200 max-w-[200px] text-center w-full space-y-3">
-            <h1 className="name font-Poppins text-xl font-medium">Muhammed</h1>
+            <h1 className="name font-Poppins text-xl font-medium">Muhammad</h1>
             <h2 className="role font-Poppins text-sm font-normal">
               Lead Developer
             </h2>

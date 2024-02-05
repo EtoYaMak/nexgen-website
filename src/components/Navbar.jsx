@@ -8,18 +8,18 @@ function Navbar({ hidden, activeSection }) {
     <motion.div
       variants={{ visible: { y: 0 }, hidden: { y: "-100%" } }}
       animate={hidden ? "hidden" : "visible"}
-      transition={{ duration: 0.15, ease: "easeInOut" }}
-      className={`fixed w-full z-[99] items-center flex duration-[5ms] ease-in-out py-2 ${
+      transition={{ duration: 0.25, ease: "easeInOut" }}
+      className={`fixed w-full z-[99] items-center flex justify-evenly  sm:justify-around  py-4  ${
         activeSection === "home"
-          ? "text-white backdrop-blur-[1px]"
-          : "text-[#000] backdrop-blur-[1px]"
+          ? "text-white backdrop-blur-[3px] duration-[250ms] ease-in-out"
+          : "text-[#fff] backdrop-blur-[1px] bg-[#061AD1]/90 duration-[250ms] ease-in-out"
       }`}
     >
       <div
-        className={`sm:flex-1 flex w-full sm:w-[87%] justify-between
+        className={` 
 `} /* ${activeSection !== "home" ? "backdrop-blur-[1px]" : "backdrop-blur-none"} */
       >
-        <button className="btn btn-ghost md:btn-wide hover:bg-transparent normal-case text-3xl font-Poppins hover:scale-105 duration-500 ease-in-out ">
+        <button className="btn btn-ghost md:btn-wide hover:bg-transparent normal-case text-3xl font-Poppins hover:scale-110 duration-500 ease-in-out ">
           NEXGEN
         </button>
       </div>
@@ -74,15 +74,15 @@ function Navbar({ hidden, activeSection }) {
       <motion.div
         variants={{ visible: { y: 0 }, hidden: { y: "-700%" } }}
         animate={hidden ? "hidden" : "visible"}
-        transition={{ delay: 0.35, duration: 0.35, ease: "easeInOut" }}
-        className="dropdown dropdown-end dropdown-bottom sm:hidden mr-2 "
+        transition={{ delay: 0.1, duration: 0.1, ease: "easeInOut" }}
+        className="dropdown dropdown-end dropdown-bottom sm:hidden  absolute right-0"
       >
-        <label tabIndex={0} className="flex p-2">
-          <AiOutlineMenu size={24} />
+        <label tabIndex={0} className="flex p-3 mr-5">
+          <AiOutlineMenu size={28} />
         </label>
         <ul
           tabIndex={0}
-          className={`dropdown-content rounded-sm z-[1] w-40 menu bg-white p-2 shadow    ${
+          className={`dropdown-content rounded-sm z-[1] w-40 menu bg-white  p-2 shadow    ${
             activeSection !== "home" ? "text-black" : "text-black"
           }`}
           /* className="dropdown-content z-[1] mt-6 w-40 menu bg-zinc-950/95 p-2 shadow  rounded-box " */

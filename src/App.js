@@ -28,9 +28,9 @@ function App() {
       setHidden(false);
     }
 
-    if (latest < 700) {
+    if (latest < 650) {
       setActiveSection("home");
-    } else if (latest < 1000) {
+    } else if (latest < 900) {
       setActiveSection("services");
     } else if (latest < 1500) {
       setActiveSection("about");

@@ -10,10 +10,10 @@ function Home() {
   return (
     <motion.div className="min-h-screen  mx-auto select-none">
       <span className="background-stock absolute max-h-[75vh]" />
-      <span className="z-50 gap-2 flex flex-col justify-evenly items-center relative h-[78vh] w-full ">
+      <span className="z-50 gap-2 flex flex-col justify-evenly items-center relative h-[78vh] w-full">
         {/* TITLE & DESC */}
-        <span className="mx-4 backdrop-blur-[2px] p-2 rounded-3xl">
-          <h1 className="text-[3rem] md:text-[4.2rem] font-bold uppercase font-Open text-white text-center ">
+        <span className="mx-4 backdrop-blur-[2px] p-2 rounded-3xl relative top-10">
+          <h1 className="text-[3rem] md:text-[4.2rem] font-bold uppercase font-Open text-white text-center">
             Empowering Tomorrow
           </h1>
 
@@ -30,7 +30,7 @@ function Home() {
             smooth={true}
             duration={500}
             offset={-50}
-            className="px-10 pr-8 py-3 bg-[#0693e3] hover:bg-transparent text-white uppercase rounded-[2rem] tracking-widest text-[14px] font-Poppins font-normal border-2 border-transparent hover:border-white flex gap-1 justify-center items-center duration-200 ease-in-out backdrop-blur-0 hover:backdrop-blur-[1px]"
+            className="px-5 sm:px-10 pr-4 sm:pr-8 py-3 bg-[#0693e3] hover:bg-transparent text-white uppercase rounded-[2rem] tracking-widest text-[14px] font-Poppins font-normal border-2 border-transparent hover:border-white flex gap-1 justify-center items-center duration-200 ease-in-out backdrop-blur-0 hover:backdrop-blur-[1px]"
           >
             Services <TbArrowNarrowRight size={20} />
           </Link>
@@ -39,7 +39,7 @@ function Home() {
             smooth={true}
             duration={500}
             offset={-50}
-            className="px-10 pr-8 py-3 bg-[#cf2e2e] hover:bg-transparent text-white uppercase rounded-[2rem] tracking-widest text-[14px] font-Poppins font-normal border-2 border-transparent hover:border-white flex gap-1 justify-center items-center duration-200 ease-in-out backdrop-blur-0 hover:backdrop-blur-[1px]"
+            className="px-5 sm:px-10 pr-4 sm:pr-8 py-3 bg-[#cf2e2e] hover:bg-transparent text-white uppercase rounded-[2rem] tracking-widest text-[14px] font-Poppins font-normal border-2 border-transparent hover:border-white flex gap-1 justify-center items-center duration-200 ease-in-out backdrop-blur-0 hover:backdrop-blur-[1px]"
           >
             Get in Touch <TbArrowNarrowRight size={20} />
           </Link>

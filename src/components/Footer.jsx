@@ -11,9 +11,9 @@ function Footer() {
           className="pointer-events-none "
         />
         <p className="text-[#f2f2f2] opacity-70">
-          Nexgen Cyber solutions.
+          NEXGEN Cyber solutions.
           <br />
-          Providing our services since 2023
+          2023
         </p>
       </aside>
       <nav>
@@ -36,7 +36,7 @@ function Footer() {
           offset={-50}
           className="link link-hover text-[#f2f2f2]"
         >
-          Software Development
+          Web & App Development
         </Link>
         <Link
           to="services"

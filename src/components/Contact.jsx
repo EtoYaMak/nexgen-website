@@ -4,10 +4,11 @@ import { IoMailOutline } from "react-icons/io5";
 import { HiOutlinePhone } from "react-icons/hi2";
 import { FaPaperPlane } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
   return (
-    <div className="min-h-screen flex justify-center items-center relative">
+    <div className="min-h-screen flex justify-center items-center relative py-10">
       <span className="background-svg-ten max-h-[75vh] absolute top-0 opacity-60 z-[0]" />
       <span className="getin h-screen w-full absolute top-0 opacity-60 z-[1]" />
       <div className="flex flex-col justify-start items-center p-4 md:p-0 w-full h-full md:h-screen z-[10]">
@@ -98,13 +99,13 @@ function Contact() {
               <SocialLink
                 icon={
                   <FaInstagram
-                    size={32}
-                    className="hover:bg-gradient-to-bl hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 rounded-lg"
+                    size={36}
+                    className="hover:bg-gradient-to-bl hover:from-pink-500 hover:via-red-500 hover:to-yellow-500 rounded-lg p-1"
                   />
                 }
-                href="#1"
+                href="https://www.instagram.com/nexgencybersolutions"
               />
-              <SocialLink
+              {/*               <SocialLink
                 icon={
                   <FaWhatsapp
                     size={32}
@@ -112,16 +113,25 @@ function Contact() {
                   />
                 }
                 href="#1"
-              />
+              /> */}
               <SocialLink
                 icon={
+                  <FaXTwitter
+                    size={36}
+                    className="hover:bg-gradient-to-r hover:from-zinc-950 hover:to-zinc-900 rounded-full p-1"
+                  />
+                }
+                href="https://twitter.com/nexgencybersol"
+              />
+              {/*               <SocialLink
+                icon={
                   <FaFacebook
-                    size={32}
-                    className="hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-600 rounded-full "
+                    size={36}
+                    className="hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-600 rounded-full p-1"
                   />
                 }
                 href="#1"
-              />
+              /> */}
             </div>
           </div>
         </div>
