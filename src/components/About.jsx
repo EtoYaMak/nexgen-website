@@ -143,9 +143,9 @@ function About() {
             />
           </span>
           <span className="text-black group-hover:text-white duration-200 max-w-[200px] text-center w-full space-y-3">
-            <h1 className="name font-Poppins text-xl font-medium">Fahad</h1>
+            <h1 className="name font-Poppins text-xl font-medium">Neha</h1>
             <h2 className="role font-Poppins text-sm font-normal">
-              Business Development Manager
+              Social Media Manager
             </h2>
             <span className="socials flex gap-4 items-center justify-center">
               <a
