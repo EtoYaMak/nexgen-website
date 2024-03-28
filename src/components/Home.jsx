@@ -46,9 +46,9 @@ function Home() {
         </span>
       </span>
       {/* Highlights */}
-      <span className="flex flex-col md:flex-row gap-10 max-w-5xl mx-auto justify-between items-center p-4">
-        <span className="text-black flex items-center  text-[16px] font-Poppins group ">
-          <span className="w-[75px] ">
+      <span className="flex flex-col min-[728px]:flex-row  gap-4 md:gap-10 md:max-w-5xl mx-auto justify-between items-center p-4 mt-10">
+        <span className="text-black flex  text-[16px] font-Poppins group ">
+          <span className="w-[75px]">
             <span className="mask mask-circle">
               <img
                 src="./social-media.png"
@@ -57,11 +57,12 @@ function Home() {
               />
             </span>
           </span>
-          <p className="font-medium font-Poppins text-black/80 flex flex-col leading-5">
-            Social Media <span>Management</span>
+          <p className="font-medium font-Poppins text-black/80 flex flex-col leading-5 items-center justify-center px-2">
+            Social Media <br />
+            Management
           </p>
         </span>
-        <span className="text-black flex items-center  text-[16px] font-Poppins group">
+        <span className="text-black flex text-[16px] font-Poppins group">
           <span className="w-[80px]  ">
             <span className="mask mask-circle">
               <img
@@ -71,12 +72,12 @@ function Home() {
               />
             </span>
           </span>
-          <p className="flex flex-col leading-5">
-            Mobile App & Website <span>Development</span>
+          <p className="font-medium font-Poppins text-black/80 flex flex-col leading-5 items-center justify-center px-2">
+            Mobile App & <br /> Website Development
           </p>
         </span>
 
-        <span className="text-black flex items-center  text-[16px] font-Poppins group">
+        <span className="text-black flex  text-[16px] font-Poppins group">
           <span className="w-[80px] ">
             <span className="mask mask-circle">
               <img
@@ -86,7 +87,9 @@ function Home() {
               />
             </span>
           </span>
-          Cyber Security
+          <p className="font-medium font-Poppins text-black/80 flex flex-col leading-5 items-center justify-center px-2">
+            Cyber Security
+          </p>
         </span>
       </span>
     </motion.div>
